@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html#services">Services Offered</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="book.html">Book Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="book-services">
+        <h1>Book Services</h1>
+        <form id="book-form">
+            <label for="task-name">Task Name:</label>
+            <input type="text" id="task-name" name="task-name" required>
+            <label for="task-details">Task Details:</label>
+            <textarea id="task-details" name="task-details" required></textarea>
+            <label for="job-location">Job Location:</label>
+            <input type="text" id="job-location" name="job-location" required>
+            <label for="budget">Budget:</label>
+            <input type="number" id="budget" name="budget" required>
+            <label for="phone">Contact Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="email">Contact Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
